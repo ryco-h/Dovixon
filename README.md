@@ -10,4 +10,5 @@ Next JS Blog
 
 - Following the main features from the Course Video
 - Google Authentication or other (Probably already in the Course)
+- Rich Text Extension for the Blog Post
 - Haven't found any
