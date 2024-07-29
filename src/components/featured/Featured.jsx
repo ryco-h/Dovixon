@@ -6,7 +6,12 @@ import Link from 'next/link';
 function Featured() {
 	return (
 		<div className={styles.container}>
-			<div className={styles.title}>Just a Website to learn Next JS</div>
+			<div className={styles.title}>
+				Just a Website to learn{' '}
+				<strong>
+					<i>Next JS</i>
+				</strong>
+			</div>
 			<div className={styles.titleSmall}>
 				Video Course by{' '}
 				<Link
@@ -22,9 +27,11 @@ function Featured() {
 			<div className={styles.post}>
 				<div className={styles.imgContainer}>
 					<Image
+						alt="Image"
 						src={'/lop.jpg'}
 						layout="fill"
 						objectFit="cover"
+						sizes="100vw"
 						style={{ borderRadius: '20px' }}
 					/>
 				</div>
