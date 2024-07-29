@@ -1,5 +1,7 @@
 /* F0B814 */
 /* #F0B814 */
+/* 2e4959 */
+/* #2e4959 */
 
 :root {
 	--bg: white;
@@ -26,10 +28,11 @@ a {
 }
 
 .dark {
-	--bg: #0f172a;
+	--bg: #2e4959;
 	--textColor: #ddd;
 	--softBg: #1f273a;
 	--softTextColor: #a6a6a6;
+	--special: #f0b814;
 }
 
 .container {

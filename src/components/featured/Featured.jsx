@@ -10,6 +10,7 @@ function Featured() {
 			<div className={styles.titleSmall}>
 				Video Course by{' '}
 				<Link
+					className={styles.specialText}
 					href={'https://youtu.be/DpYE5zPDRVQ'}
 					style={{
 						textDecoration: 'underline',

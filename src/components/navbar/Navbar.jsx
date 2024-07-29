@@ -12,19 +12,22 @@ const Navbar = () => {
 	const { theme, toggle } = useContext(ThemeContext);
 	return (
 		<div className={styles.container}>
-			<div className={styles.logo}>
-				<Image
-					width={0}
-					height={0}
-					className={styles.logoImage}
-					src={
-						theme === 'dark' ? '/dovixon-nobg.png' : '/dovixon-black-nobg.png'
-					}
-					sizes="100vw"
-				/>
-			</div>
+			<Image
+				width={0}
+				height={0}
+				className={styles.logoImage}
+				src={theme === 'dark' ? '/dovixon-nobg.png' : '/dovixon-black-nobg.png'}
+				sizes="100vw"
+			/>
+			<div
+				className={styles.divider}
+				style={
+					theme === 'dark'
+						? { borderRight: '2px solid #F0B814' }
+						: { borderRight: '2px solid black' }
+				}
+			/>
 			<div className={styles.links}>
-				<ThemeToggle />
 				<Link className={styles.link} href={'/homepage'}>
 					Homepage
 				</Link>
@@ -35,6 +38,7 @@ const Navbar = () => {
 					About
 				</Link>
 				<Authentication />
+				<ThemeToggle />
 			</div>
 		</div>
 	);
