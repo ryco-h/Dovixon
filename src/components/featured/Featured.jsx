@@ -7,7 +7,7 @@ function Featured() {
 	return (
 		<div className={styles.container}>
 			<div className={styles.title}>
-				Just a Website to learn{' '}
+				This website was made by learning{' '}
 				<strong>
 					<i>Next JS</i>
 				</strong>

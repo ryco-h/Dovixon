@@ -6,6 +6,7 @@
 :root {
 	--bg: white;
 	--textColor: black;
+	--opsTextColor: white;
 	--softBg: #f0f0f0;
 	--softTextColor: #626262;
 }
@@ -30,6 +31,7 @@ a {
 .dark {
 	--bg: #2e4959;
 	--textColor: #ddd;
+	--opsTextColor: black;
 	--softBg: #1f273a;
 	--softTextColor: #a6a6a6;
 	--special: #f0b814;

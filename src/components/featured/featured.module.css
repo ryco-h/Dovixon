@@ -3,11 +3,11 @@
 }
 
 .title {
-	font-size: 54px;
+	font-size: 40px;
 }
 
 .titleSmall {
-	font-size: 32px;
+	font-size: 20px;
 }
 
 .specialText {
@@ -39,12 +39,13 @@
 }
 
 .button {
+	font-weight: bold;
 	cursor: pointer;
 	padding: 10px 15px 10px 15px;
-	color: var(--special);
-	background: transparent;
+	color: black;
+	background: var(--special);
 	border-radius: 10px;
-	border: 1px solid white;
+	border: 1px solid var(--special);
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
