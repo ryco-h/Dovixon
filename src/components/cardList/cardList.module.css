@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin: 20px;
+	margin-top: 50px;
+}
+
+.title {
+	font-size: 32px;
+}
+
+.posts {
+	margin: 10px;
+	display: flex;
+	gap: 50px;
+	flex-direction: column;
+}

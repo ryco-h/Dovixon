@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	margin: 150px 0;
+}
+
+.button {
+	background-color: transparent;
+	color: var(--special-black);
+	padding: 15px 35px;
+	border: 1px solid var(--special);
+	border-radius: 10px;
+	cursor: pointer;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+	font-weight: bold;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+}

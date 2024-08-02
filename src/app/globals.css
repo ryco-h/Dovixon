@@ -9,6 +9,18 @@
 	--opsTextColor: white;
 	--softBg: #f0f0f0;
 	--softTextColor: #626262;
+	--special: white;
+	--special-black: black;
+}
+
+.dark {
+	--bg: #2e4959;
+	--textColor: #ddd;
+	--opsTextColor: black;
+	--softBg: #1f273a;
+	--softTextColor: #a6a6a6;
+	--special: #f0b814;
+	--special-black: #f0b814;
 }
 
 * {
@@ -26,15 +38,6 @@ body {
 a {
 	color: inherit;
 	text-decoration: none;
-}
-
-.dark {
-	--bg: #2e4959;
-	--textColor: #ddd;
-	--opsTextColor: black;
-	--softBg: #1f273a;
-	--softTextColor: #a6a6a6;
-	--special: #f0b814;
 }
 
 .container {

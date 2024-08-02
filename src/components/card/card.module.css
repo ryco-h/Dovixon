@@ -1,0 +1,57 @@
+.container {
+	display: flex;
+	gap: 30px;
+}
+
+.imgContainer {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	max-width: 200px;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20px;
+	padding: 5px;
+}
+
+.content {
+	display: flex;
+	flex: 2;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 26px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.author {
+	font-size: 14px;
+	color: var(--softTextColor);
+}
+
+.description {
+	font-size: 18px;
+	margin-top: 20px;
+	max-width: 800px;
+}
+
+.button {
+	margin-top: 20px;
+	width: max-content;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 15px 10px 15px;
+	color: black;
+	background: var(--special);
+	border-radius: 10px;
+	border: 1px solid var(--special);
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.button:hover {
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

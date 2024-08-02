@@ -27,8 +27,8 @@ function Featured() {
 			<div className={styles.post}>
 				<div className={styles.imgContainer}>
 					<Image
-						alt="Image"
 						src={'/lop.jpg'}
+						alt="Image"
 						layout="fill"
 						objectFit="cover"
 						sizes="100vw"
